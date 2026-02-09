@@ -112,12 +112,20 @@
                     <img src="img/apple.png" alt="Apple Logo" />
                     <p>iPhone 14 Series</p>
                     <h1>Up to 10% off Voucher</h1>
+                    <h1>Up to 10% off Voucher</h1>
                     <a href="javascript:void(0)"
                       >Shop Now <img src="img/icons arrow-right.png"
                     /></a>
                   </div>
                   <div class="banner-image">
                     <img src="img/iPhone.png" alt="iPhone Image" />
+                  </div>
+                  <div class="banner-pagination">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                   </div>
                 </div>
               </div>
@@ -132,27 +140,58 @@
           <div class="row">
             <div class="todays-inner">
               <h4>Today's</h4>
-              <div class="todays-header d-flex align-center justify-between">
-                <div>
-                  <h2>Flash Sales</h2>
-                  <h2 class="sale-timer">Ends in: 02:15:30</h2>
-                </div>
-                <div class="navigation d-flex">
-                  <a href="javascript:void(0)"
-                    ><img src="img/arrow-left-black.png" alt="arrow-left"
-                  /></a>
-                  <a href="javascript:void(0)"
-                    ><img src="img/arrow-right-black.png" alt="arrow-right"
-                  /></a>
+                <div class="todays-header-content">
+                  <div>
+                    <h2>Flash Sales</h2>
+                  </div>
+                  <div class="timer-group">
+                      <div class="timer-item">
+                          Days
+                          <span>03</span>
+                      </div>
+                      <div class="timer-separator">:</div>
+                      <div class="timer-item">
+                          Hours
+                          <span>23</span>
+                      </div>
+                      <div class="timer-separator">:</div>
+                      <div class="timer-item">
+                          Minutes
+                          <span>19</span>
+                      </div>
+                      <div class="timer-separator">:</div>
+                      <div class="timer-item">
+                          Seconds
+                          <span>56</span>
+                      </div>
+                  </div>
+                  <div class="navigation d-flex" style="margin-left: auto;">
+                    <a href="javascript:void(0)"
+                      ><img src="img/arrow-left-black.png" alt="arrow-left"
+                    /></a>
+                    <a href="javascript:void(0)"
+                      ><img src="img/arrow-right-black.png" alt="arrow-right"
+                    /></a>
+                  </div>
                 </div>
               </div>
               <div class="todays-content d-flex align-center justify-between">
                 <div class="sale-item">
-                  <img src="img/GamePad.png" alt="Sale Item 1" />
+                  <div class="sale-item-image">
+                      <div class="discount-badge">-40%</div>
+                      <div class="card-icons">
+                          <div class="card-icon-btn"><img src="img/Heart Small.png" alt="Wishlist"></div>
+                          <div class="card-icon-btn"><img src="img/Quick View.png" alt="Quick View"></div>
+                      </div>
+                      <img src="img/GamePad.png" alt="Sale Item 1" class="product-img" />
+                      <div class="add-to-cart-btn">Add To Cart</div>
+                  </div>
                   <p>HAVIT HV-G92 Gamepad</p>
-                  <h3>$120</h3>
-                  <img src="img/Five star.png" alt="Rating" />
-                  <p>(88)</p>
+                  <h3>$120</h3><span style="text-decoration: line-through; color: gray; margin-left: 10px;">$160</span>
+                  <div style="margin-top: 5px;">
+                    <img src="img/Five star.png" alt="Rating" />
+                    <p>(88)</p>
+                  </div>
                 </div>
                 <div class="sale-item">
                   <img src="img/Wired Keyboard.png" alt="Sale Item 2" />
@@ -184,8 +223,10 @@
                 </div>
               </div>
             </div>
-          </div>
-          <button class="view-more">View All Products</button>
+        </div>
+        <div class="text-center">
+            <button class="view-more btn-primary">View All Products</button>
+        </div>
         </div>
       </section>
 
@@ -213,7 +254,35 @@
                 </div>
               </div>
             </div>
-          </div>
+              </div>
+              
+              <div class="categories-content d-flex justify-between mt-40 flex-wrap gap-30">
+                <div class="category-box">
+                  <img src="img/Category-CellPhone.png" alt="Phones" />
+                  <p>Phones</p>
+                </div>
+                <div class="category-box">
+                  <img src="img/Category-Computer.png" alt="Computers" />
+                  <p>Computers</p>
+                </div>
+                <div class="category-box">
+                  <img src="img/Category-SmartWatch.png" alt="SmartWatch" />
+                  <p>SmartWatch</p>
+                </div>
+                <div class="category-box active" style="background-color: var(--color-primary); color: #fff; border-color: var(--color-primary);">
+                  <img src="img/Category-Camera.png" alt="Camera" style="filter: brightness(0) invert(1);" />
+                  <p>Camera</p>
+                </div>
+                <div class="category-box">
+                  <img src="img/Category-Headphone.png" alt="HeadPhones" />
+                  <p>HeadPhones</p>
+                </div>
+                <div class="category-box">
+                  <img src="img/Category-Gamepad.png" alt="Gaming" />
+                  <p>Gaming</p>
+                </div>
+              </div>
+            </div>
         </div>
       </section>
 
@@ -231,9 +300,9 @@
                 <div>
                   <h2>Best Selling Products</h2>
                 </div>
-                <button class="view-more">View All</button>
+                <button class="view-more btn-primary" style="margin: 0;">View All</button>
               </div>
-              <div class="todays-content d-flex align-center justify-between">
+              <div class="todays-content d-flex align-center justify-between mt-40">
                 <div class="sale-item">
                   <img src="img/The north coat.png" alt="Sale Item 1" />
                   <p>The north coat</p>
@@ -318,9 +387,9 @@
                 <div>
                   <h2>Featured Products</h2>
                 </div>
-                <button class="view-more">View All</button>
+                <button class="view-more btn-primary" style="margin: 0;">View All</button>
               </div>
-              <div class="todays-content d-flex align-center justify-between">
+              <div class="todays-content d-flex align-center justify-between flex-wrap gap-30 mt-40">
                 <div class="sale-item">
                   <img src="img/Dog Food.png" alt="Sale Item 1" />
                   <p>Smart Watch</p>
@@ -350,11 +419,21 @@
                   <p>(99)</p>
                 </div>
                 <div class="sale-item">
-                  <img src="img/Kids Electric Car.png" alt="Sale Item 1" />
-                  <p>Smart Watch</p>
+                  <div class="sale-item-image">
+                    <div class="new-badge">NEW</div>
+                    <div class="card-icons">
+                        <div class="card-icon-btn"><img src="img/Heart Small.png" alt="Wishlist"></div>
+                        <div class="card-icon-btn"><img src="img/Quick View.png" alt="Quick View"></div>
+                    </div>
+                    <img src="img/Kids Electric Car.png" alt="Sale Item 1" class="product-img" />
+                    <div class="add-to-cart-btn">Add To Cart</div>
+                  </div>
+                  <p>Kids Electric Car</p>
                   <h3>$120</h3>
-                  <img src="img/Five star.png" alt="Rating" />
-                  <p>(88)</p>
+                  <div style="margin-top: 5px;">
+                    <img src="img/Five star.png" alt="Rating" />
+                    <p>(88)</p>
+                  </div>
                 </div>
                 <div class="sale-item">
                   <img src="img/Soccer Cleats.png" alt="Sale Item 2" />
@@ -364,11 +443,21 @@
                   <p>(75)</p>
                 </div>
                 <div class="sale-item">
-                  <img src="img/USB Gamepad.png" alt="Sale Item 3" />
-                  <p>Camera</p>
+                  <div class="sale-item-image">
+                    <div class="new-badge">NEW</div>
+                    <div class="card-icons">
+                        <div class="card-icon-btn"><img src="img/Heart Small.png" alt="Wishlist"></div>
+                        <div class="card-icon-btn"><img src="img/Quick View.png" alt="Quick View"></div>
+                    </div>
+                    <img src="img/USB Gamepad.png" alt="Sale Item 3" class="product-img" />
+                    <div class="add-to-cart-btn">Add To Cart</div>
+                  </div>
+                  <p>GP11 Shooter USB Gamepad</p>
                   <h3>$370</h3>
-                  <img src="img/Four Half Star.png" alt="Rating" />
-                  <p>(99)</p>
+                  <div style="margin-top: 5px;">
+                    <img src="img/Four Half Star.png" alt="Rating" />
+                    <p>(99)</p>
+                  </div>
                 </div>
                 <div class="sale-item">
                   <img src="img/Satin Jacket.png" alt="Sale Item 4" />
@@ -398,33 +487,33 @@
                 <h2>New Arrival</h2>
               </div>
             </div>
-            <div class="col-6">
-              <div>
+            <div class="featured-grid">
+              <div class="featured-left">
                 <img src="img/PlayStation 5.png" alt="PlayStation 5" />
                 <h2>PlayStation 5</h2>
                 <p>Black and White version of the PS5 coming out on sale.</p>
                 <a href="javascript:void(0)">Shop Now </a>
               </div>
-            </div>
-            <div class="col-6">
-              <div>
-                <img src="img/Women’s Collections.png" alt="Women Collection" />
-                <h2>Women’s Collections</h2>
-                <p>Featured woman collections that give you another vibe.</p>
-                <a href="javascript:void(0)">Shop Now </a>
-              </div>
-              <div>
-                <div>
-                  <img src="img/Speakers.png" alt="Speaker" />
-                  <h2>Speakers</h2>
-                  <p>Amazon wireless speakers</p>
+              <div class="featured-right">
+                <div class="featured-right-top">
+                  <img src="img/Women’s Collections.png" alt="Women Collection" />
+                  <h2>Women’s Collections</h2>
+                  <p>Featured woman collections that give you another vibe.</p>
                   <a href="javascript:void(0)">Shop Now </a>
                 </div>
-                <div>
-                  <img src="img/Perfume.png" alt="Perfume" />
-                  <h2>Perfume</h2>
-                  <p>GUCCI INTENSE OUD EDP</p>
-                  <a href="javascript:void(0)">Shop Now </a>
+                <div class="featured-right-bottom">
+                  <div class="featured-small-card">
+                    <img src="img/Speakers.png" alt="Speaker" />
+                    <h2>Speakers</h2>
+                    <p>Amazon wireless speakers</p>
+                    <a href="javascript:void(0)">Shop Now </a>
+                  </div>
+                  <div class="featured-small-card">
+                    <img src="img/Perfume.png" alt="Perfume" />
+                    <h2>Perfume</h2>
+                    <p>GUCCI INTENSE OUD EDP</p>
+                    <a href="javascript:void(0)">Shop Now </a>
+                  </div>
                 </div>
               </div>
             </div>
